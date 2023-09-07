@@ -1,4 +1,7 @@
-namespace AlgoMania.Tests
+using AlgoMania.ClassLibrary;
+using AlgoMania.ClassLibrary.LinkedLists;
+
+namespace AlgoMania.Tests.LinkedLists
 {
     public class LinkedListTests
     {
@@ -58,7 +61,7 @@ namespace AlgoMania.Tests
         {
             var linkedList = new LinkedList();
             linkedList.InsertNodeToHead(new Node("element"));
-            linkedList.InsertNodeToHead(new Node("element2"));   
+            linkedList.InsertNodeToHead(new Node("element2"));
             Assert.False(linkedList.IsEmpty());
         }
     }

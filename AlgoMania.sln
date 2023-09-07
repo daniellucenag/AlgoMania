@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgoMania", "AlgoMania\AlgoMania.csproj", "{A882583D-EC13-409A-8EE3-61870A12492A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlgoMania", "AlgoMania\AlgoMania.csproj", "{A882583D-EC13-409A-8EE3-61870A12492A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgoMania.Tests", "AlgoMania.Tests\AlgoMania.Tests.csproj", "{3CE3CB31-3A7B-4DE8-AC7A-984F8E9E139F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlgoMania.Tests", "AlgoMania.Tests\AlgoMania.Tests.csproj", "{3CE3CB31-3A7B-4DE8-AC7A-984F8E9E139F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgoMania.ClassLibrary", "AlgoMania.ClassLibrary\AlgoMania.ClassLibrary.csproj", "{6B37119E-C23D-4B32-8137-EAF0D1976510}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{3CE3CB31-3A7B-4DE8-AC7A-984F8E9E139F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CE3CB31-3A7B-4DE8-AC7A-984F8E9E139F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CE3CB31-3A7B-4DE8-AC7A-984F8E9E139F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B37119E-C23D-4B32-8137-EAF0D1976510}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B37119E-C23D-4B32-8137-EAF0D1976510}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B37119E-C23D-4B32-8137-EAF0D1976510}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B37119E-C23D-4B32-8137-EAF0D1976510}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
